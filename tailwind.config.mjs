@@ -11,6 +11,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        ds: ["var(--font-dancing-script)", "cursive"],
+        lato: ["var(--font-lato)", "sans-serif"],
+      },
     },
   },
   plugins: [],
