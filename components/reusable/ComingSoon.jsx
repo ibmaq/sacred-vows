@@ -2,7 +2,7 @@ export const ComingSoon = () => {
   return (
     <>
       <div className="w-full h-screen bg-cover bg-center relative">
-        <div className="absolute inset-0 bg-black/70"></div>
+        <div className="absolute inset-0 bg-black/50"></div>
         {/* Video Element */}
         <video autoPlay loop muted className="w-full h-full object-cover">
           <source src="/videos/hero-bg.mp4" type="video/mp4" />
